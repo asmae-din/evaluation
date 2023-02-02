@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-rounded');
+@import url('https://fonts.cdnfonts.com/css/lato');
+:root {
+    --font-gotham: 'Gotham Rounded', sans-serif;
+    --font-lato: 'Lato';                                              
+  
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    
+    --color-black: #2C2C2C;
+    --color-gray :#9AA8B8;
+    --color-bleu: #3B849C;
+    --color-yellow: #FBBA10;
+    --color-pink:#C95C9E;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:var(--font-family);
+    position: relative;
+}
